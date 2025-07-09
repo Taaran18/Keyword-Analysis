@@ -25,33 +25,45 @@ def login():
 
     st.markdown(
         """
-        <style>
-        .login-title {
-            text-align: center;
-            font-size: 28px;
-            color: #ffffff;
-            margin-bottom: 1.5rem;
-        }
-        .stTextInput > div > div > input {
-            background-color: #2e2e2e;
-            color: #fff;
-            border: 1px solid #444;
-            border-radius: 8px;
-        }
-        .stTextInput label {
-            color: #ccc;
-        }
-        .stButton > button {
-            background-color: #4a90e2;
-            color: white;
-            border-radius: 10px;
-            font-weight: 600;
-            width: 100%;
-            height: 3rem;
-            margin-top: 1rem;
-        }
-        </style>
-        """,
+<style>
+.login-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+    color: inherit;
+}
+
+/* Input boxes */
+.stTextInput > div > div > input {
+    background-color: #f0f2f6;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Input labels */
+.stTextInput label {
+    color: #666;
+}
+
+/* Login button */
+.stButton > button {
+    background-color: #3a8ddd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #337fcc;
+}
+</style>
+""",
         unsafe_allow_html=True,
     )
 
