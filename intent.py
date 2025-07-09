@@ -29,7 +29,7 @@ def label_cluster_with_openai_intent(phrases):
     try:
         print(f"🔍 Prompting OpenAI with {len(phrases)} keywords...")
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4.1-2025-04-14",
             messages=[
                 {
                     "role": "system",
