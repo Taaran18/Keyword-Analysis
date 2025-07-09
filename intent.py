@@ -1,11 +1,9 @@
 import os
 import openai
 import time
-import datetime
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]["value"]
 
 if openai.api_key is None:
     raise ValueError("API key not found. Please set your OPENAI_API_KEY.")
