@@ -1,0 +1,10 @@
+pandas
+openai==0.28
+streamlit
+python-dotenv
+transformers
+sentence-transformers
+scikit-learn
+matplotlib
+bcrypt
+xlsxwriter

@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+secrets.toml
+
+# Streamlit cache
+.streamlit/
+*.streamlit-*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest / coverage / mypy / profiling outputs
+.cache/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.prof
+
+# Data & log files
+*.log
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+*.tsv
+*.json
+*.pkl
+*.joblib
+
+# VSCode, PyCharm, other IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS, Linux, Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model files
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+# Exported artifacts
+/output/
+exports/
+__exports__/
+
+# Users File
+add_users.py
